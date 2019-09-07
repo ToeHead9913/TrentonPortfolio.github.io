@@ -1,1 +1,100 @@
-new file
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+    background: #efeee7; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+header {
+    background: white;
+    margin-bottom: 24px;
+    height: 75px;
+}
+
+h1 {
+    display: inline-block;
+    text-align: center;
+    background: rgb(2, 128, 128);
+    color: white;
+    padding: 24px;
+    margin-left: 124px;
+    margin-top: 0px;
+}
+
+h3 {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+#navlinks {
+    display: inline-block;
+    float: right;
+    margin-right: 50px;
+    margin-top: 5px;
+
+}
+
+/* h1 {
+    color: #eee;
+    padding: 20px 0;
+    margin: 0;
+    margin-bottom: 20px;
+    margin-left: 124px;
+    font-size: 20px;
+    text-align: center;
+    background: #30948D;
+    width: 20%;
+    float: left;
+    float: top;
+
+} */
+
+h2 {
+    font-size: 24px;
+    color: rgb(2, 128, 128);
+}
+
+hr {
+    margin-right: 24px;
+}
+
+.container {
+
+    width: 960px;
+    margin: 0 auto;
+    
+}
+
+#bio-image, #main-bio {
+    float: left;
+
+}
+
+#main-bio {
+    width: 100%;
+  overflow: auto;
+  clear: both;
+  color: black;
+    background: white;
+  padding-left: 25px;
+  padding-bottom: 25px;
+}
+
+#bio-image {
+    width:200px;
+    height: 200px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+.portcontainer {
+
+    width: 600px;
+    margin: 0 auto;
+}
