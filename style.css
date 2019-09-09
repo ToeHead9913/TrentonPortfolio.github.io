@@ -98,3 +98,17 @@ hr {
     width: 600px;
     margin: 0 auto;
 }
+
+.portimage {
+    position: relative; 
+   width: 100%;
+}
+
+.portimage span {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    text-align: center;
+    width: 100%;
+}
